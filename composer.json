@@ -1,0 +1,21 @@
+{
+    "name": "amzeker/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "7.2"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Anatoliy Kolesnik",
+            "email": "amzeker@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4"  : {
+            "amzeker\\parser\\":"src"
+      }
+    },
+    "minimum-stability": "stable"
+}
