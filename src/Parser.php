@@ -11,6 +11,9 @@ class Parser implements ParserInterface
        if ($htmlpage === false ) {
            return ['Invalid URL'];
        }
+       
+       // Regular expression
+       
        preg_match('/<' .$tag . '.*?>(.*?)<\/' . $tag . '>/a', $htmlpage, $strings);
        
        if (empty($strings[1])) {
