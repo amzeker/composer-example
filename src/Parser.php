@@ -20,6 +20,11 @@ class Parser implements ParserInterface
            return ['There are no such tags on the page'];
        }
     }
+    
+    public function test()
+    {
+        // feature
+    }
 }
 
 ?>
